@@ -1,0 +1,93 @@
+/* General body styling */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif; /* Clean sans-serif font for modern look */
+  background-color: #ffffff; /* White background for the entire blog */
+  color: #000000; /* Black text for readability */
+  line-height: 1.6; /* Improved readability */
+  padding: 20px; /* Padding for a spacious layout */
+}
+
+/* Headings styling */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold; /* Bold headings for emphasis */
+  color: #333333; /* Dark gray for headings */
+  margin-bottom: 10px; /* Space below headings */
+}
+
+/* Paragraph styling */
+p {
+  color: #666666; /* Medium gray for paragraphs */
+  margin-bottom: 15px; /* Space below paragraphs */
+}
+
+/* Link styling */
+a {
+  color: #007acc; /* Bright blue links for visibility */
+  text-decoration: none; /* Remove underline for a cleaner look */
+  transition: color 0.3s; /* Smooth transition for hover effects */
+}
+
+a:hover {
+  color: #005fa3; /* Darker blue on hover */
+}
+
+/* Button styling */
+button {
+  background-color: #007acc; /* Modern blue button background */
+  color: white; /* White text on buttons */
+  border: none; /* Remove default button border */
+  padding: 12px 20px; /* Padding for buttons */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 5px; /* Rounded corners for buttons */
+  font-size: 16px; /* Increased font size for buttons */
+  transition: background-color 0.3s; /* Smooth transition effects */
+}
+
+button:hover {
+  background-color: #005fa3; /* Darker blue on hover */
+}
+
+/* Code block styling */
+code {
+  font-family: 'Courier New', Courier, monospace; /* Keep code font consistent */
+  background-color: #f2f2f2; /* Light gray background for code blocks */
+  color: #000000; /* Black text color for code */
+  padding: 4px 8px; /* Padding around code text */
+  border-radius: 4px; /* Rounded corners for code blocks */
+}
+
+/* Input fields and textarea styling */
+input[type="text"], input[type="email"], textarea {
+  border: 2px solid #007acc; /* Blue border for input fields */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px; /* Padding inside input fields */
+  font-family: 'Arial', sans-serif; /* Simple font for inputs */
+  background-color: #ffffff; /* White background for input fields */
+  color: #000000; /* Black text color for inputs */
+  transition: border-color 0.3s; /* Smooth transition for focus effects */
+}
+
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+  outline: none; /* Remove default outline */
+  border-color: #005fa3; /* Change border color on focus */
+}
+
+/* List styling */
+ul {
+  list-style-type: disc; /* Use disc bullets */
+  padding-left: 20px; /* Padding for list */
+  margin: 0; /* Remove margin */
+}
+
+li {
+  margin: 5px 0; /* Space between list items */
+}
+
+/* Footer styling */
+footer {
+  margin-top: 20px; /* Space above the footer */
+  text-align: center; /* Center align footer text */
+  color: #999999; /* Lighter gray for footer text */
+  font-size: 14px; /* Smaller font size for footer */
+}
