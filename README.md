@@ -40,7 +40,7 @@ Follow these steps to get the project up and running locally on your machine:
    Visit `http://localhost:8000` in your web browser to see the application in action.
 
 ## 📂 Project Structure
-'''bash
+```bash
 blog-app/
 │
 ├── /public/                # Static assets (CSS, images)
@@ -53,7 +53,7 @@ blog-app/
 ├── .env                    # Environment variables (if applicable)
 ├── package.json            # Node.js dependencies and scripts
 └── README.md               # Project documentation
-'''
+```
 
 ## 🚧 Future Improvements
 - Implement user authentication to allow users to log in and manage their own posts. 
@@ -70,5 +70,4 @@ Contributions are welcome! Feel free to submit pull requests, report issues, or 
 ## 📝 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----'''
-# Mini-Project-4
+```
