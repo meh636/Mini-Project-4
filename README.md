@@ -10,7 +10,7 @@ Welcome to the **Blog Application**! This project allows users to create, view, 
 - User-friendly interface with a modern design.
 
 ## 📷 Screenshot
-![Blog Application Screenshot](public/Screenshot 2024-11-04 at 9.24.31 PM.png)
+![Blog Application Screenshot](/public/screenshot.png)
 
 ## 🛠️ Technologies Used
 - **Node.js**: Backend runtime environment.
